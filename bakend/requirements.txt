@@ -4,7 +4,7 @@ pydantic
 requests
 python-multipart
 numpy
-opencv-python-headlessS
+opencv-python-headless>=4.8.0.7
 pillow
 scikit-learn
 pandas
