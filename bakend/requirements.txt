@@ -3,3 +3,8 @@ uvicorn
 pydantic
 requests
 python-multipart
+numpy
+opencv-python-headless
+pillow
+scikit-learn
+pandas
