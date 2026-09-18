@@ -31,7 +31,7 @@ function App() {
     formData.append("elapsed_hours", elapsedHours);
 
     try {
-      const res = await axios.post("https://oil-spill-detection-system.onrender.com//api/analyze", formData);
+      const res = await axios.post("https://oil-spill-detection-system.onrender.com/api/analyze", formData);
       setResults(res.data);
     } catch (err) {
       console.error(err);
